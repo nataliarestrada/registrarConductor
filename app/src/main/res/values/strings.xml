@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Parking Jujuy</string>
+    <string name="title_activity_menu_adm">MenuAdmActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_titulo_menu">Parking Jujuy</string>
+    <string name="nav_subtitulo_menu">admin@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_principal">Principal</string>
+    <string name="menu_inspector">Inspector</string>
+    <string name="menu_conductor">Conductor</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_estadisticas">Estadisticas</string>
+    <string name="menu_informe">Informe Multas</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/menu_principal" />
+        <item android:title="Registrar">
+            <menu>
+             <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_add_circle_black_24dp"
+                android:title="@string/menu_inspector" />
+            <item
+                android:id="@+id/nav_slideshow"
+                android:icon="@drawable/ic_add_circle_black_24dp"
+                android:title="@string/menu_conductor" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Informes">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_assessment_black_24dp"
+                android:title="@string/menu_estadisticas" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_picture_as_pdf_black_24dp"
+                android:title="@string/menu_informe" />
+        </menu>
+    </item>
+
+</menu>
